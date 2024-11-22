@@ -24,7 +24,7 @@ app.get('*', async(req, res)=> {
     res.send(result.rows[1].fruit_img);
 });
 
-app.listen(3001, ()=> {
+app.listen(port, ()=> {
     console.log("connected on server port" + port);    
 });
 
